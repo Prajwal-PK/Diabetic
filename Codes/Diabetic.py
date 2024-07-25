@@ -32,7 +32,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-
+#Streamlit
 st.subheader("No of pregnancies")
 preg = st.number_input("", min_value = 0, max_value = 20)
 st.subheader("Plasma Glucose Level")
